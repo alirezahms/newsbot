@@ -2,7 +2,7 @@
 
 if (file_exists('MadelineProto.log')) { unlink ("MadelineProto.log");}
 if (!file_exists ("data/link.txt")){ file_put_contents("data/link.txt","");}
-if (!file_exists ("data/admin.txt")){ file_put_contents("data/admin.txt","277826937");}
+if (!file_exists ("data/admin.txt")){ file_put_contents("data/admin.txt","");}
 //-----ایدی-عددی-ادمین--↑↑-----
 if (!is_dir("data")){ mkdir ("data");}
 if (!file_exists ("data/number.txt")){ file_put_contents("data/number.txt","0");}
